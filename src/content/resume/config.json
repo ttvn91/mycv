@@ -1,0 +1,21 @@
+{
+  "pdfFileName": "CV.Adam",
+  "startYear": 2014,
+  "privateInfo": {
+    "email": "ttvn91@gmail.com",
+    "phone": "(+84) 936 830 632",
+    "linkedin": "https://linkedin.com/in/nguyen-hoang-hai-nam",
+    "address": {
+      "vi": "1194 Đường Láng, Hà Nội",
+      "en": "1194 Lang Street, Hanoi"
+    }
+  },
+  "theme": {
+    "primaryColor": "#ea580c",
+    "backgroundColor": "#f8fafc",
+    "textColor": "#0f172a",
+    "imageSize": 512,
+    "enableParticles": true,
+    "headerAlign": "left"
+  }
+}

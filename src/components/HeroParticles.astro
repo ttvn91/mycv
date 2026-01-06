@@ -1,0 +1,12 @@
+---
+// src/components/HeroParticles.astro
+// Renders a canvas with a connecting dots effect that follows the mouse across the whole page.
+---
+<canvas id="particles-canvas" class="fixed top-0 left-0 w-full h-full -z-10 no-print pointer-events-none"></canvas>
+
+<script>
+    import { setupParticles } from '../scripts/particles';
+
+    // Run on every page navigation
+    document.addEventListener('astro:page-load', setupParticles);
+</script>

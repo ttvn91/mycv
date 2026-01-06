@@ -1,0 +1,191 @@
+{
+  "fullName": "Nguyễn Hoàng Hải Nam",
+  "hero": {
+    "role": "Tôi là một Marketing Technologist",
+    "description": "với {exp} năm kinh nghiệm, tôi thiết kế hệ thống vận hành tự động bằng N8N, Python, AI Agent nhằm tối ưu quy trình triển khai và giảm bớt tác vụ lặp lại cho doanh nghiệp.",
+    "download": "Tải CV (PDF)"
+  },
+  "stats": {
+    "exp": "NĂM KINH NGHIỆM VỀ MARKETING",
+    "automation": "THỜI GIAN TIẾT KIỆM NHỜ TỰ ĐỘNG HOÁ",
+    "channels": "KÊNH VỚI KHẢ NĂNG SCALE HỆ THỐNG"
+  },
+  "sectionTitles": {
+    "skills": "Kỹ Năng Nổi Bật",
+    "experience": "Kinh Nghiệm Chuyên Môn",
+    "contact": "Liên Hệ"
+  },
+  "experiences": [
+    {
+      "title": "Trưởng nhóm Marketing & Tự động hóa",
+      "company": "AnHome US",
+      "period": "09/2022 – 11/2025",
+      "location": "Hà Nội",
+      "highlights": [
+        "Giải phóng 95% sức lao động: Hỗ trợ nhân sự full-time bằng hệ thống tự động hóa, giúp tiết kiệm thời gian xử lý công việc lặp lại tới hơn 80 giờ mỗi tuần.",
+        "Vận hành quy mô lớn: Dẫn dắt đội ngũ tinh gọn vận hành ổn định hệ thống phân phối nội dung số (có khả năng scale tới 200 kênh) nhờ giải pháp tự động hóa.",
+        "Chuẩn hóa dữ liệu: Loại bỏ 100% sai sót trong việc nhập liệu giá và tồn kho trên các sàn TMĐT nhờ cơ chế đồng bộ thời gian thực."
+      ],
+      "tech": [
+        "N8N",
+        "REST API",
+        "OAuth2",
+        "Playwright",
+        "Docker",
+        "Proxmox"
+      ]
+    },
+    {
+      "title": "Quản lý Thương hiệu & Tăng trưởng",
+      "company": "HyperWork x Velasboost",
+      "period": "07/2021 – 08/2022",
+      "location": "Hà Nội",
+      "highlights": [
+        "Bùng nổ doanh thu: Đạt mức tăng trưởng 150% doanh thu trong giai đoạn cao điểm nhờ chiến dịch truyền thông tích hợp Shark Tank Season 5.",
+        "Tối ưu tỷ lệ lấp đầy đơn hàng: Đảm bảo luồng vận hành thông suốt giữa Marketing và Kho vận, giảm thiểu tỷ lệ rớt đơn.",
+        "Nhân bản năng lực: Chuẩn hóa quy trình làm việc cho mảng PR Booking và Media Production."
+      ],
+      "tech": [
+        "Facebook Ads",
+        "Google Ads",
+        "TikTok Ads",
+        "Google Apps Script"
+      ]
+    },
+    {
+      "title": "Trưởng phòng Digital Marketing",
+      "company": "Happy Bridge",
+      "period": "11/2019 – 05/2021",
+      "location": "Hà Nội",
+      "highlights": [
+        "Tối ưu chi phí: Giảm 90% chi phí thu hút khách hàng (từ ~11.000 VND xuống ~1.000 VND/user) nhờ tái cấu trúc lại phễu chuyển đổi và chiến lược nội dung hiệu quả.",
+        "Thúc đẩy sản phẩm: Đóng góp trực tiếp vào việc hoàn thiện tính năng sản phẩm O2O Dating giúp tăng tỷ lệ giữ chân người dùng.",
+        "Sản xuất truyền thông: Trực tiếp sản xuất nội dung quảng cáo bằng bộ công cụ Adobe (Premiere, Photoshop) và CapCut cho các chiến dịch app marketing, social media và video."
+      ],
+      "tech": [
+        "AppsFlyer",
+        "Facebook Ads",
+        "Google Ads",
+        "Firebase Analytics"
+      ]
+    },
+    {
+      "title": "Chuyên viên Hoạch định Chiến lược Cấp cao",
+      "company": "Max Group Vietnam",
+      "period": "10/2017 – 11/2019",
+      "location": "Hà Nội",
+      "highlights": [
+        "Chinh phục khách hàng lớn: Thuyết phục thành công và triển khai chiến dịch cho các đối tác chiến lược: Panasonic, LG Vietnam, AOSmith.",
+        "Đảm bảo cam kết KPI: Duy trì tỷ lệ hoàn thành KPI cam kết với khách hàng ở mức cao."
+      ],
+      "tech": [
+        "Facebook Ads",
+        "Google Ads",
+        "Creative Brief",
+        "Google Analytics"
+      ]
+    },
+    {
+      "title": "Trưởng phòng Marketing",
+      "company": "Mercedes-Benz Haxaco",
+      "period": "10/2015 – 09/2017",
+      "location": "Hà Nội",
+      "highlights": [
+        "Vượt chỉ tiêu: Liên tục đạt và vượt các chỉ số Marketing khắt khe theo tiêu chuẩn toàn cầu.",
+        "Bảo vệ thương hiệu: Đảm bảo điểm tuân thủ nhận diện thương hiệu luôn ở mức tối đa."
+      ],
+      "tech": [
+        "Email Marketing",
+        "CRM System",
+        "Automation Marketing",
+        "Event Management"
+      ]
+    },
+    {
+      "title": "Chuyên viên PR & Truyền thông",
+      "company": "LTT Group",
+      "period": "05/2013 – 10/2015",
+      "location": "Hà Nội",
+      "highlights": [
+        "Phủ sóng truyền thông: Đưa thương hiệu chiếm lĩnh thảo luận trên các mặt báo công nghệ trọng điểm (VNExpress, Dân Trí, TechZ).",
+        "Xử lý khủng hoảng: Bảo vệ uy tín thương hiệu thành công trước các sự cố truyền thông và đợt tấn công từ đối thủ cạnh tranh.",
+        "Hiệu ứng thương hiệu: Tạo tiếng vang thị trường thông qua các chiến dịch đại sứ thương hiệu."
+      ],
+      "tech": [
+        "PR Strategy",
+        "Booking Media",
+        "Crisis Management",
+        "Event Coordination"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Hệ thống Tự động hóa & Công cụ AI",
+      "items": [
+        "AI Agent",
+        "AutoHotkey",
+        "N8N",
+        "REST API",
+        "Webhook"
+      ]
+    },
+    {
+      "category": "Tăng trưởng & Phân tích số liệu",
+      "items": [
+        "AppsFlyer",
+        "Tối ưu phễu chuyển đổi",
+        "Facebook/Google/TikTok",
+        "Google Analytics"
+      ]
+    },
+    {
+      "category": "Chiến lược Marketing & Quản trị",
+      "items": [
+        "Chuyển đổi số",
+        "PR & Truyền thông",
+        "Hoạch định chiến lược"
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Bạn đang cần giải pháp Automation?",
+    "subtitle": "Đừng để các tác vụ thủ công lặp lại kìm hãm năng lực đội ngũ của bạn. Hãy cùng xây dựng một hệ thống tăng trưởng bền vững.",
+    "primaryBtn": {
+      "label": "Gửi Email cho tôi",
+      "url": "mailto:ttvn91@gmail.com",
+      "hoverColor": "#ea580c",
+      "spacing": {
+        "mt": "0",
+        "mr": "0",
+        "mb": "0",
+        "ml": "0",
+        "pt": "0.875rem",
+        "pr": "2rem",
+        "pb": "0.875rem",
+        "pl": "2rem"
+      }
+    },
+    "secondaryBtn": {
+      "label": "LinkedIn Profile",
+      "url": "https://linkedin.com/in/nguyen-hoang-hai-nam",
+      "hoverColor": "#0077b5",
+      "spacing": {
+        "mt": "0",
+        "mr": "0",
+        "mb": "0",
+        "ml": "0",
+        "pt": "0.875rem",
+        "pr": "2rem",
+        "pb": "0.875rem",
+        "pl": "2rem"
+      }
+    }
+  },
+  "contactInfo": {
+    "email": "Email",
+    "phone": "Điện thoại",
+    "address": "Địa chỉ",
+    "linkedin": "LinkedIn"
+  }
+}

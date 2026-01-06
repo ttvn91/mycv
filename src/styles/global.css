@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--color-primary-100: #ffedd5; /* orange-100 */
+		--color-primary-500: #f97316; /* orange-500 */
+		--color-primary-600: #ea580c; /* orange-600 */
+	}
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+	width: 12px;
+}
+::-webkit-scrollbar-track {
+	background: #f1f5f9; /* slate-100 */
+}
+::-webkit-scrollbar-thumb {
+	background: #fb923c; /* orange-400 */
+	border-radius: 6px;
+	border: 3px solid #f1f5f9; /* slate-100 */
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #f97316; /* orange-500 */
+}
+
+/* Animate on Scroll Classes */
+.scroll-animate {
+	opacity: 0;
+	transform: translateY(2rem);
+	transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1), transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.scroll-animate.is-visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.print-only {
+	display: none;
+}
+
+
+/* Print Styles */
+@media print {
+	@page {
+		margin-top: 1.75cm;
+		margin-bottom: 1.75cm;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	body {
+		font-size: 11pt; /* Increased base font size */
+		padding-left: 1.5cm;
+		padding-right: 1.5cm;
+	}
+	main {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+	header {
+		padding-top: 0.25cm;
+	}
+
+	h1 { font-size: 22pt; }
+	h2 { font-size: 16pt; }
+	h3 { font-size: 13pt; }
+	.text-lg { font-size: 12pt; } /* Upped for highlights */
+	.text-base { font-size: 10pt; }
+	.text-sm { font-size: 9pt; }
+	.text-xl { font-size: 13pt; } /* Upped for company name */
+	.text-2xl { font-size: 15pt; } /* Upped for job title */
+
+	.stats-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+	.skills-section { margin-bottom: 2rem; }
+	.experience-container { margin-top: 2rem; }
+	.job-item { break-inside: avoid; }
+	#print-contact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	
+	.no-print { display: none; }
+	.print-only { display: block; }
+
+	.keep-together { break-inside: avoid; }
+	.break-after-this { break-after: page; }
+	.break-before-this { break-before: page; }
+	
+	/* Force white background for content cards */
+	.bg-white {
+        background-color: white !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+	body.bg-slate-50 {
+		background-color: white !important;
+	}
+}
