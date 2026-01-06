@@ -2,6 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import HeroParticles from '../components/HeroParticles.astro';
 import Footer from '../components/Footer.astro';
+import Analytics from '@vercel/analytics/astro';
 import { Image } from 'astro:assets';
 import profileImage from '../assets/profile.jpg';
 import { getEntry } from 'astro:content';
@@ -313,6 +314,7 @@ const expYears = currentYear - config.startYear;
             </section>
             <Footer />
         </main>
+        <Analytics />
         <script>
             import { navigate } from 'astro:transitions/client';
 
